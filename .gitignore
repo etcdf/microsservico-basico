@@ -1,4 +1,16 @@
+# configuracao da IDE
+.idea/
+.vscode/
+*.iml
+
+# arquivos de configuracao para ambiente local
+src/config/app.properties
+
+# arquivos de configuracao das dependencias
 composer.phar
+composer.lock
+
+# diretorio de bibliotecas
 /vendor/
 
 # Commit your application's lock file https://getcomposer.org/doc/01-basic-usage.md#commit-your-composer-lock-file-to-version-control
